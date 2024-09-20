@@ -1,0 +1,11 @@
+<!DOCTYPE>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<body>
+<div ng-app="" ng-init="myCol=' '">
+<input type="text" style="background-color:{{myCol}}" ng-model="myCol">
+
+
+</div>
+</body>
+</html>
